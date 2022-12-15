@@ -125,6 +125,58 @@ p{
 *****************/
 
 
+/****************
+ ULTIMO CONTAINER MAIN
+*****************/
+.container-main .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-height: 900px;
+}
+main button{
+    margin-top: 20px;
+    padding: 6px;
+    border-radius: 15px;
+    border: none;
+    font-weight:bold;
+    background-color: rgb(102,126,213);
+    color: white;
+    font-size: xx-small;
+}
+p{
+    margin-top: 20px;
+}
+span{
+    font-weight:bold;
+    font-size: small;
+}
+/****************
+ ULTIMO CONTAINER MAIN
+*****************/
+
+
+/****************
+ FOOTER
+*****************/
+footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.row{
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/****************
+ FOOTER
+*****************/
+
 
 
 
