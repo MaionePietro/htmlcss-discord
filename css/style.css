@@ -3,12 +3,42 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-}
-img {
-    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* header */
-
-
+header{
+    padding: 10;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+}
+/* Logo */
+.nav-bar{
+    padding-top: 10px;;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: baseline;
+}
+/* Link */
+.link{
+    font-size: x-small;
+    display: flex;
+    gap: 20px;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+}
+/* login */
+.login>button{
+    padding: 6px;
+    border-radius: 15px;
+    background-color: white;
+    border: none;
+    font-size: xx-small;
+}
 
