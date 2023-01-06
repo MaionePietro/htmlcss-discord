@@ -147,7 +147,7 @@ main button{
     color: white;
     font-size: xx-small;
 }
-p{
+main p{
     margin-top: 20px;
 }
 span{
@@ -167,7 +167,7 @@ footer{
     color: white;
     font-size:x-small;
 }
-section{
+section.link{
     display: flex;
     justify-content: center;
 
@@ -189,6 +189,34 @@ footer li{
 }
 footer h2{
     color: rgb(102,126,214);
+    padding: 10px;
+}
+.lenguage{
+    padding: 5px;
+}
+.lenguage img{
+    width: 15px;
+}
+.lenguage span{
+    font-size: x-small;
+}
+.iconlink *{
+    padding: 3px;
+}
+
+footer .link:last-child{
+    border-top: 1px solid rgb(102,126,214);
+}
+footer .link:last-child .container{
+    justify-content: space-between;
+}
+footer .link:last-child .col img{
+    width: 60%;
+}
+footer .link:last-child .col a{
+    padding: 8px;
+    background-color: rgb(102,126,214);
+    border-radius: 20px;
 }
 
 /****************
@@ -201,7 +229,7 @@ footer h2{
 
 
 
-.col,.debug,.container{
+/* .col,.debug,.container{
     border: 4px dotted rgb(0, 255, 234);
-}
+} */
 
