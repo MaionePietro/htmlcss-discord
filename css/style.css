@@ -4,6 +4,7 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    list-style: none;
 }
 
 /* header */
@@ -161,18 +162,35 @@ span{
 /****************
  FOOTER
 *****************/
-footer .container{
+footer{
+    background-color: rgb(32,35,37);
+    color: white;
+    font-size:x-small;
+}
+section{
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+
 }
-.row{
-    max-width: 700px;
+section .container{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    min-width: 700px;
+    justify-content: space-around;
 }
+footer a{
+    color: white;
+    text-decoration: none;
+}
+ul li:first-child {
+    color: rgb(102,126,214);
+}
+footer li{
+    padding: 5px;
+}
+footer h2{
+    color: rgb(102,126,214);
+}
+
 /****************
  FOOTER
 *****************/
@@ -183,7 +201,7 @@ footer .container{
 
 
 
-.debug{
+.col,.debug,.container{
     border: 4px dotted rgb(0, 255, 234);
 }
 
